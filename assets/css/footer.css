@@ -1,0 +1,21 @@
+footer {
+    background-color: #343a40; /* Warna latar belakang gelap */
+}
+
+footer .text-white {
+    color: white; /* Warna teks putih */
+}
+
+footer a {
+    color: white; /* Warna tautan putih */
+}
+
+footer a:hover {
+    text-decoration: none; /* Hilangkan garis bawah saat hover */
+}
+
+@media (max-width: 768px) {
+    footer .row {
+        text-align: center; /* Pusatkan teks pada layar kecil */
+    }
+}

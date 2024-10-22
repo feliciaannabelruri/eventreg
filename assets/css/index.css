@@ -1,0 +1,10 @@
+.card {
+    background-color: white; /* Set background to white */
+    border-radius: 20px; /* Apply border radius */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.3s; /* Optional: add a smooth transition for hover effects */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Optional: scale effect on hover */
+}
